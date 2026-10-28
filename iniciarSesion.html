@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="levis.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sitio Web Levi´s IRMV 0593 - Iniciar Sesión</title>
+</head>
+<body>
+
+  <!-- El formulario envía los datos a login.php -->
+  <form action="login.php" method="POST">
+    
+    <div style="text-align: center;">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Levi%27s_logo.svg/3840px-Levi%27s_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail" class="logo-Levis">
+      <h3>INGRESA A LEVI'S MÉXICO</h3>
+      <p>Entrar con e-mail y contraseña</p>
+    </div>
+
+    <!-- Campos del formulario con atributo name -->
+    <input type="email" name="correo" placeholder="Correo" class="ingresarDatos" required>
+    <input type="password" name="password" placeholder="Contraseña" class="ingresarDatos" required>
+
+    <!-- Botón Entrar -->
+    <input type="submit" value="Entrar" class="botonCuenta">
+
+    <!-- Link Registrarse -->
+    <div style="text-align: center; margin-top: 15px;">
+      <a href="crearCuenta.html" style="font-size: 13px; color: black;">¿No tienes una cuenta? Regístrate</a>
+    </div>
+
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+	font-family: sans-serif;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+    gap: 30px;           /* Espaciado entre opciones */
+    padding: 15px 40px;  /* Margen interno para separar de los bordes de la pantalla */
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .logo-Levis {
+    width: 90px;         /* Tamaño fijo para mantener la proporción exacta */
+    display: block;
+  }
+  
+  .nav-buscar {
+    margin-left: auto;   /* Empuja "Únete a Red Tab™" completamente a la derecha */
+  }
+
+.texto-principal{
+	max-width: 900px;
+    margin: 0 auto;       /* Centra el contenedor horizontalmente */
+    text-align: center;   /* Centra el texto dentro del contenedor */
+}
+
+.ropa-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr)); 
+    gap: 25px;
+    padding: 20px;
+}
+
+.ropa-card {
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ropa-image {
+    width: auto;
+}
+
+.ropa-description {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.agregarCarrito {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 14px 28px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Ajusta el ancho según lo necesites */
+  border-radius: 0; /* Bordes totalmente rectos */
+  transition: opacity 0.2s ease;
+}
+
+form {
+    max-width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.ingresarDatos{
+    width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box;
+}
+
+.botonCuenta{
+    width: 100%; padding: 10px; background: #000; color: #fff; font-weight: bold; border: none; cursor: pointer;
+}
+
+footer{
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    background-color: #EEEEEE;
+}
